@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🌀</text></svg>">
 <title>Home · Landfall: Hurricane Tracker</title>
 <meta name="description" content="Home for Landfall: Hurricane Tracker, an iPhone app from Holmes Development Group.">
 <style>
@@ -26,12 +28,13 @@ h3{font-size:17px;margin:20px 0 4px}
 ul{padding-left:22px}
 li{margin:6px 0}
 .note{border-left:4px solid #f59e0b;padding:10px 14px;background:rgba(245,158,11,.10);border-radius:6px;margin:18px 0}
+@media (max-width:800px){main{margin-left:12px;margin-right:12px;padding:6px 18px 18px}}
 footer{color:var(--muted);font-size:14px;padding-top:18px;padding-bottom:40px}
 </style>
 </head>
 <body>
 <header><div class="mark" aria-hidden="true">🌀</div><div class="brand">Landfall: Hurricane Tracker<small>An iPhone app from Holmes Development Group</small></div></header>
-<nav><a href="./">Home</a><a href="./support/">Support</a><a href="./privacy/">Privacy Policy</a></nav>
+<nav aria-label="Site"><a href="./" aria-current="page">Home</a><a href="./support/">Support</a><a href="./privacy/">Privacy Policy</a></nav>
 <main>
 <h1>Landfall: Hurricane Tracker</h1>
 <p>Landfall: Hurricane Tracker puts the National Hurricane Center's official forecast, the spaghetti models and Google DeepMind's AI hurricane model on one map, then grades how close each model's past forecasts came to where storms really went.</p>
